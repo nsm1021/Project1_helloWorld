@@ -36,10 +36,10 @@ jobs:
 
       #Change the app-name to match what was provided to you in the publish settings file, this is in a naming convention of 'COURSENAME-STUDENTUID'
 
-        app-name: 'cmst385-nmcnatt6746'
+        app-name: 'cmst385-nmcnatt'
 
         slot-name: 'production'
 
       #Change the publish profile to match what you named your secret setup in GitHub, Example shown below
 
-        publish-profile: ${{ secrets.AppServiceCMST385 }}
+        publish-profile: ${{ secrets.APPSERVICECMST385 }}
